@@ -1,0 +1,80 @@
+@import url("__reset.css");
+
+body {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+a {
+  color: rgb(187, 88, 21);
+}
+
+header {
+  display: flex;
+  padding: 1rem 0;
+}
+
+header h1 {
+  margin-left: auto;
+}
+
+header nav {
+  margin-left: auto;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+.searchForm {
+  margin: 1rem;
+  margin-right: auto;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main {
+  display: flex;
+  padding: 0 4.5rem;
+}
+
+section {
+  display: flex;
+  margin: 1rem 0;
+}
+
+article {
+  width: 70%;
+}
+
+figure img {
+  width: 30%;
+}
+
+figure figcaption {
+  width: 30%;
+  text-align: left;
+  font-size: 0.75rem;
+  color: grey;
+  margin-top: 0.325rem;
+}
+
+aside {
+  width: 30%;
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 0.75rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: rgb(187, 88, 21);
+  letter-spacing: 0.325px;
+}
