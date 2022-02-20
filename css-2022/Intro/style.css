@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(0, 0, 0, 0.959);
+  color: white;
+  font-family: 'Roboto';
+  font-size: 1.325rem;
+  padding: 0 1.5rem;
+}
+h1 {
+  font-family: serif;
+  font-size: 98px;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(239, 255, 22, 0.918) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(239, 255, 22, 0.918) 100%
+  );
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+p {
+  letter-spacing: 2px;
+}
